@@ -1,42 +1,78 @@
-# sv
+# Sito Latanza
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Sito web professionale per lo studio del Dott. Latanza, pensato per presentare i servizi offerti, il profilo professionale e i contatti dello studio.
 
-## Creating a project
+## Stack Tecnologico
 
-If you're seeing this, you've probably already done this step. Congrats!
+* **Framework:** SvelteKit 5
+* **Styling:** Tailwind CSS 4 (con i plugin `@tailwindcss/forms` e `@tailwindcss/typography`)
+* **Icone:** Lucide Svelte
+* **Build tool:** Vite
+* **Linting & Formattazione:** ESLint + Prettier (con supporto per Svelte e Tailwind)
 
-```sh
-# create a new project
-npx sv create my-app
+## Struttura del Progetto
+
+Il sito è organizzato in componenti riutilizzabili all'interno di `src/lib/components/`:
+
+* **Navbar** — Barra di navigazione principale
+* **Hero** — Sezione di apertura della homepage
+* **ChiSono** — Presentazione del professionista
+* **Servizi** — Elenco dei servizi offerti
+* **Contatti** — Informazioni e modalità di contatto
+* **Footer** — Piè di pagina
+
+Le pagine e il layout dell'applicazione si trovano in `src/routes/`.
+
+## Configurazione e Avvio in Locale
+
+### Installazione delle Dipendenze
+
+```bash
+npm install
 ```
 
-To recreate this project with the same configuration:
+### Avvio del Server di Sviluppo
 
-```sh
-# recreate this project
-npx sv@0.15.1 create --template minimal --no-types --add eslint prettier tailwindcss="plugins:typography,forms" sveltekit-adapter="adapter:auto" --install npm .
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+```bash
 npm run dev
+```
 
-# or start the server and open the app in a new browser tab
+Il sito sarà disponibile all'indirizzo `http://localhost:5173` (porta di default di Vite).
+
+Per avviare il server e aprire automaticamente il browser:
+
+```bash
 npm run dev -- --open
 ```
 
-## Building
+### Build di Produzione
 
-To create a production version of your app:
+Per generare la versione ottimizzata per la produzione:
 
-```sh
+```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+È possibile visualizzare in anteprima la build di produzione con:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```bash
+npm run preview
+```
+
+### Controllo Qualità del Codice
+
+Per verificare la formattazione e la qualità del codice:
+
+```bash
+npm run lint
+```
+
+Per formattare automaticamente tutti i file:
+
+```bash
+npm run format
+```
+
+## Deploy
+
+Il progetto utilizza `@sveltejs/adapter-auto`, che seleziona automaticamente l'adapter più adatto in base alla piattaforma di hosting scelta (Vercel, Netlify, ecc.). Per maggiori informazioni, consultare la [documentazione ufficiale degli adapter SvelteKit](https://svelte.dev/docs/kit/adapters).
