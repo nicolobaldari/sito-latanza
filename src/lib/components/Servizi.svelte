@@ -150,7 +150,7 @@
             <div class="w-full lg:w-1/2 relative">
                 <div class="aspect-[4/3] lg:aspect-square rounded-[2.5rem] overflow-hidden shadow-2xl shadow-[#0D5E56]/10">
                     <img
-                            src="/Gemini_Generated_Image_fspvygfspvygfspv-Photoroom.png"
+                            src="/studio-latanza-social.png"
                             alt="Trattamenti professionali e cura del paziente"
                             class="w-full h-full object-cover object-[center_20%]"
                     />

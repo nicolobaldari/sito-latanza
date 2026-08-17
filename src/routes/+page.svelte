@@ -20,7 +20,7 @@
     <meta property="og:url" content="https://www.studiolatanza.it/" />
     <meta property="og:title" content="Fisioterapista Osteopata a Marconia, Ginosa, Policoro | DR. Latanza" />
     <meta property="og:description" content="Dr. Francesco Latanza, fisioterapista e osteopata. Riabilitazione moderna, tecar, biohacking. Prenota una valutazione a Marconia, Ginosa e Policoro." />
-    <meta property="og:image" content="https://www.studiolatanza.it/Gemini_Generated_Image_fspvygfspvygfspv-Photoroom.png" />
+    <meta property="og:image" content="https://www.studiolatanza.it/studio-latanza-social.png" />
     <meta property="og:locale" content="it_IT" />
     <meta property="og:site_name" content="Dr. Francesco Latanza - Studio di Fisioterapia e Osteopatia" />
 
@@ -29,7 +29,7 @@
     <meta property="twitter:url" content="https://www.studiolatanza.it/" />
     <meta property="twitter:title" content="Fisioterapista Osteopata a Marconia, Ginosa, Policoro | Dr. Latanza" />
     <meta property="twitter:description" content="Dr. Francesco Latanza, fisioterapista e osteopata. Riabilitazione moderna, tecar, biohacking. Prenota una valutazione a Marconia, Ginosa e Policoro." />
-    <meta property="twitter:image" content="https://www.studiolatanza.it/Gemini_Generated_Image_fspvygfspvygfspv-Photoroom.png" />
+    <meta property="twitter:image" content="https://www.studiolatanza.it/studio-latanza-social.png" />
 
     <!-- Schema.org JSON-LD (Local SEO Multi-Sede) -->
     <script type="application/ld+json">
