@@ -6,7 +6,7 @@
     <title>Errore {$page.status} | DR. Francesco Latanza</title>
 </svelte:head>
 
-<!-- flex-grow gli fa occupare lo spazio del <main>, items-center centra la card verticalmente in modo perfetto -->
+<!-- flex-grow espande il contenitore nello spazio disponibile del <main>; items-center centra la card verticalmente -->
 <div class="w-full flex-grow flex items-center justify-center px-5 py-10 bg-gray-50/50">
 
     <div class="w-full max-w-[650px] text-center bg-white p-12 md:p-16 rounded-[2.5rem] shadow-[0_20px_60px_-15px_rgba(13,94,86,0.12)] border border-gray-100">

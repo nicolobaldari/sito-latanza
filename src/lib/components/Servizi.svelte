@@ -163,7 +163,7 @@
 
             <div class="hidden md:block border-t border-gray-200">
                 {#each serviziPrincipali as s}
-                    <!-- Trasformato div in button per Accessibilità -->
+                    <!-- Elemento reso interattivo con <button> per l'accessibilità da tastiera -->
                     <button class="w-full text-left bg-transparent border-none p-0 m-0 group flex border-b border-gray-200 transition-colors duration-400 hover:bg-gray-50/70 cursor-pointer" onclick={() => openModal(s)}>
                         <div class="w-1/3 py-12 pl-6 pr-4 flex items-center">
                             <h3 class="font-['Lora',serif] text-3xl font-bold text-gray-900 group-hover:text-[#0D5E56] transition-colors duration-300">{s.titolo}</h3>

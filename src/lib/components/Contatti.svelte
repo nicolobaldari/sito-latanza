@@ -89,7 +89,7 @@
             <!-- Colonna Destra: Sistema a Tab per le Sedi -->
             <div class="w-full lg:w-2/3 bg-white rounded-3xl shadow-xl shadow-[#0D5E56]/5 border border-gray-100 overflow-hidden flex flex-col">
 
-                <!-- Bottoni Tab Sedi con forte contrasto -->
+                <!-- Bottoni Tab Sedi -->
                 <div class="flex border-b border-gray-200 bg-gray-100/50 flex-wrap sm:flex-nowrap p-1 rounded-t-2xl">
                     {#each sedi as sede, index}
                         <button
@@ -112,7 +112,7 @@
                         </div>
                     </div>
 
-                    <!-- Il "quadratino" di Google Maps (iFrame Embed Gratuito) -->
+                    <!-- Mappa incorporata tramite iFrame di Google Maps -->
                     <div class="w-full rounded-2xl overflow-hidden shadow-inner border border-gray-200 bg-gray-100" style="height: 350px;">
                         <iframe
                                 src="{sedi[activeTab].mappa}"
@@ -126,7 +126,7 @@
                         </iframe>
                     </div>
 
-                    <!-- Bottone per aprire nell'app vera e propria -->
+                    <!-- Link per aprire la posizione nell'app di Google Maps -->
                     <div class="mt-6 text-center">
                         <a href="https://www.google.com/maps/search/?api=1&query={encodeURIComponent(sedi[activeTab].indirizzo + ', ' + sedi[activeTab].città)}" target="_blank" class="inline-flex items-center gap-2 text-[#0D5E56] font-semibold hover:text-[#0a4740] transition-colors no-underline">
                             Apri nell'App di Google Maps

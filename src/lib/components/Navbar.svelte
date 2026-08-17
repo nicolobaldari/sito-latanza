@@ -25,7 +25,7 @@
 
         <!-- Logo -->
         <a href="/" class="block z-50 transform md:-translate-y-1" onclick={closeMenu}>
-            <!-- Altezza ridotta a 50px per maggiore respiro e centraggio ottico -->
+            <!-- Altezza contenuta per un migliore bilanciamento visivo del logo -->
             <img src="/Logo_Latanza_senza_sfondo.png" alt="Logo Dr. Latanza" class="h-[40px] md:h-[50px] w-auto block" />
         </a>
 

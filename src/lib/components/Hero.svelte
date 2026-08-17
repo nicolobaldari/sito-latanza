@@ -7,7 +7,7 @@
 <section class="relative w-full h-screen min-h-[600px] flex items-center bg-[#0D5E56] overflow-hidden sticky top-0 -z-10 box-border">
 
     <!-- Livello 1: Immagine -->
-    <!-- Modificato 'opacity-40' in 'opacity-70' su mobile per rendere la foto molto più accesa e visibile -->
+    <!-- Opacità maggiore su mobile per garantire una buona visibilità della foto -->
     <div class="absolute inset-0 md:left-auto md:right-0 md:w-[65vw] h-full z-0 transition-opacity duration-[1.5s] delay-200 {loaded ? 'opacity-70 md:opacity-100' : 'opacity-0'}">
         <img
                 src="/foto-dottore.jpeg"
@@ -17,7 +17,7 @@
     </div>
 
     <!-- Livello 2: Overlay Gradiente -->
-    <!-- Su mobile il gradiente sfuma verso uno 0.2 (molto leggero) invece che 0.5 -->
+    <!-- Gradiente più leggero su mobile per non coprire eccessivamente la foto -->
     <div class="absolute inset-0 pointer-events-none z-[1]
         bg-[linear-gradient(to_top,#0D5E56_0%,rgba(13,94,86,0.2)_100%)]
         md:bg-[linear-gradient(to_right,#0D5E56_0%,#0D5E56_35%,rgba(13,94,86,0.7)_50%,rgba(13,94,86,0.3)_65%,transparent_85%)]">
